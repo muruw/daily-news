@@ -38,6 +38,10 @@ const ArticleFeed = () => {
           key={index}
         />
       ))}
+
+      <a href="https://newsapi.org/ " target="_blank">
+        Made with news api!
+      </a>
     </div>
   );
 };

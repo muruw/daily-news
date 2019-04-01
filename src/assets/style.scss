@@ -1,0 +1,52 @@
+.navbar {
+  background: #f7a072;
+  height: 64px;
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  padding-top: 18px;
+  letter-spacing: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#root {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+.feed {
+  max-width: 700px;
+  margin: 100px auto;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.article {
+  width: 48%;
+  text-decoration: none;
+  text-align: left;
+  margin-bottom: 32px;
+  &__image {
+    width: 100%;
+  }
+
+  &__source {
+    color: #f7a072;
+  }
+
+  &__title {
+    color: black;
+    font-size: 20px;
+  }
+
+  &--small {
+    width: 32%;
+  }
+}
